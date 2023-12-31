@@ -1,0 +1,269 @@
+body{
+	margin: 3em;
+	background-color: #F5F5DC;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: #075e54;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #075e54;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-right: 50px;
+    background: #075e54;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background: #075e54;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    background:#075e54;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 13px;
+    background: #075e54;
+}
+h1{
+	text-align: center;
+}
+.cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.cont .quartz_heater{
+    max-width: 12em;
+    background-color: #fff;
+    padding: 1.2em;
+    margin: 1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+
+}
+.cont .quartz_heater img{
+	max-width: 100%;
+
+}
+.quartz_heater h4{
+	font-size: 1.3em;
+	margin: 1.5em 0;
+}
+ .cont .quartz_heater div{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .cont .halogen_heater{
+    max-width: 12em;
+    background-color: #fff;
+    padding:1em;
+    margin: 1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+}
+.cont .halogen_heater img{
+	max-width: 100%;
+
+}
+ .cont .halogen_heater h4{
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+ .cont .halogen_heater div{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .cont .carbon_rod{
+    max-width: 12em;
+    background-color: #fff;
+    padding:1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+    
+    margin: 1em;
+
+}
+ .cont .carbon_rod img{
+	max-width: 100%;
+
+}
+ .cont .carbon_rod h4{
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+ .cont .carbon_rod div{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont .ceramic_heater{
+    max-width: 12em;
+    background-color: #fff;
+    padding:1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+    
+    margin: 1em;
+
+}
+ .cont .ceramic_heater img{
+	max-width: 100%;
+
+}
+ .cont .ceramic_heater h4{
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+ .cont .ceramic_heater div{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont .fan_heater{
+    max-width: 12em;
+    background-color: #fff;
+    padding:1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+    
+    margin: 1em;
+}
+ .cont .fan_heater img{
+	max-width: 100%;
+
+}
+ .cont .fan_heater h4{
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+ .cont .fan_heater div{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont .fire{
+    max-width: 12em;
+    background-color: #fff;
+    padding:1em;
+    box-shadow: 0 5px 5px black;
+    font-family: Arial , Helvetica, sans-serif ;
+    
+    margin: 1em;
+}
+ .cont .fire img{
+	max-width: 100%;
+    height: 180px;
+}
+ .cont .fire h4{
+	font-size: 1.2em;
+	margin: 1.5em 0;
+}
+ .cont .fire div{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background: #075e54;
+    color: beige;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.row2{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fotcol{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.fotcol h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid beige;
+    margin: 20px 0;
+}
+ul li{
+    text-decoration: none;
+    margin-bottom: 12px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.form1{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid beige;
+    margin-bottom: 50px;
+}
+.form1 .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+.form1 input{
+    width: 100%;
+    background: transparent;
+    color: beige;
+    border: 0;
+    outline: none;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: beige;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.main{
+    min-height: calc(100vh - 600px - 300px);
+}

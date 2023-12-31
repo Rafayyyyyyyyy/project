@@ -1,0 +1,156 @@
+.{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Georgia', serif;
+}
+body{
+	background-color: beige;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color:#075e54;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #075e54;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 40px;
+    background: #075e54;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background: #075e54;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    background: #075e54;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 13px;
+    background: #075e54;
+}
+.heading{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+}
+.heading h1{
+	font-size: 50px;
+	color: #000;
+	margin-bottom: 25px;
+	position: relative;
+}
+.heading h1::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	display: block;
+	margin: 0 auto;
+	background-color: #4caf50;
+}
+.heading p{
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 35px;
+}
+.about-content{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background: #075e54;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.row2{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fotcol{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.fotcol h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid beige;
+    margin: 20px 0;
+}
+ul li{
+    text-decoration: none;
+    margin-bottom: 12px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid beige;
+    margin-bottom: 50px;
+}
+form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: beige;
+    border: 0;
+    outline: none;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: beige;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.main{
+    min-height: calc(100vh - 600px - 300px);
+}

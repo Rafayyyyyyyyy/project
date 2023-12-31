@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{margin:0 ;
+padding: o;
+box-sizing: border-box;
+font family:'Poppins',sans-serif;
+}
+body{
+	background: grey;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+	position: relative;  /* to keep child classes like left and right in desired box or place*/ 
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: white;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.container .left_half{
+	position: relative;
+	background: lightblue;
+    padding: 40px;
+}
+.profileText{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.profileText .imgBx{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profileText .imgBx  img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container .contactinfo h3{
+	color: black;
+}
+.container .education h3{
+	color: black;
+}
+.profileText h2{
+	color: black;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-align: center; 
+}
+.contactinfo{
+	padding-top: 40px;
+}
+.title{
+	color: white;
+	margin-bottom: 20px;
+}
+.container .right_half{
+	position: relative;
+	background: white;
+    padding: 40px;
+
+}
+.container .right_half .introduction{
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	width: 250px;
+	height: 260px;
+	border: 1px solid #ccc;
+	background-color: lightgrey ;
+}
+.container .right_half .introduction h3{
+	text-align: center;
+	color:blue;
+}
+.container .right_half .skills{
+	position: absolute;
+	top: 500px;
+	left: 20px;
+	width: 600px;
+	height: 310px;
+	border: 1px solid #ccc;
+	background-color: lightgrey ;
+}
+.container .right_half .skills h3{
+		color: blue;
+}
+.container .right_half .hobbies{
+	position: absolute;
+	top: 200px;
+	left:300px;
+    height: 260px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: lightgrey ;
+}
+.container .right_half .hobbies h3{
+color: blue;
+text-align: center;
+}
+.container .right_half .extra-curricular{
+	position: absolute;
+	text-align: center;
+   top: 840px;
+   left: 20px;
+   width: 600px;
+   height: 100px;
+   background-color: lightgrey ;
+}

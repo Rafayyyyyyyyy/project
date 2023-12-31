@@ -1,0 +1,191 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: beige;
+    display: inherit;
+    
+    height: 100%;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: #075e54;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #075e54;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-right: 50px;
+    background: #075e54;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background: #075e54;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    background:#075e54;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 13px;
+    background: #075e54;
+}
+.heading{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+}
+
+h1{
+    
+   margin-left: 500px;
+  }
+
+
+
+form {
+    
+    margin: 0 auto;
+  margin-left: 60px;
+  
+}
+form{
+    margin-bottom: 40px;
+}
+
+form label {
+    display: block;
+    margin-top: 5px;
+
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
+
+form button {
+    background-color: #075e54;
+    color: beige;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: beige;
+}body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: beige;
+    display: inherit;
+   
+    height: 100%;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background: #075e54;
+    color: beige;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.row2{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fotcol{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.fotcol h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid beige;
+    margin: 20px 0;
+}
+ul li{
+    text-decoration: none;
+    margin-bottom: 12px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.form1{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid beige;
+    margin-bottom: 50px;
+}
+.form1 .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+.form1 input{
+    width: 100%;
+    background: transparent;
+    color: beige;
+    border: 0;
+    outline: none;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: beige;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.main{
+    min-height: calc(100vh - 600px - 300px);
+}
+.image{
+    margin-left: 600px;
+    width: 300px;
+}
+iframe{
+    width: 100%;
+    margin-top: 10px;
+}
